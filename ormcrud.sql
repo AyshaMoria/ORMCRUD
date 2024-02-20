@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 01, 2024 at 11:05 AM
+-- Generation Time: Feb 20, 2024 at 09:38 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -137,12 +137,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `product_name`, `cat_id`, `product_image`, `is_active`, `created_at`, `updated_at`) VALUES
-(30, 'Remote', 22, 'uploads/nkUqQMvuaDr5mnLvi81Fx8H760VNCzPXd6RxUf6W.png', 1, '2024-02-01 03:38:04', '2024-02-01 04:13:53'),
-(36, 'ssss', 21, 'uploads/g3Y75aZgPlO8nqs7igxG2Rw3IzDYV05bhCbqosyO.jpg', 1, '2024-02-01 04:05:53', '2024-02-01 04:05:53'),
-(37, 'cloths', 22, 'uploads/PruDwrP0GbzNjplednxshMoVkGaLf0Ee08LcnFMv.jpg', 0, '2024-02-01 04:06:04', '2024-02-01 04:06:04'),
-(38, 'cloths', 22, 'uploads/fypKFuEao0KCzszBUkOZWiNFwWFHGZux0TpdQPTR.jpg', 0, '2024-02-01 04:06:16', '2024-02-01 04:17:55'),
-(39, 'Remote', 23, 'uploads/DaixchqumJ2RwEhvnpMarfofYEDUaEVjeQk4pNoU.png', 1, '2024-02-01 04:07:03', '2024-02-01 04:07:03'),
-(40, 'Sjj', 23, 'uploads/image_1706781028.jpg', 1, '2024-02-01 04:20:28', '2024-02-01 04:20:42');
+(60, 'cloths', 22, 'image_1707212646.jpg', 1, '2024-02-06 04:14:06', '2024-02-06 04:14:06');
 
 -- --------------------------------------------------------
 
@@ -274,7 +269,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 
 --
 -- AUTO_INCREMENT for table `registrations`
